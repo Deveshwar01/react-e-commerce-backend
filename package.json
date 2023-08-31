@@ -1,0 +1,36 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.12.4",
+    "@strapi/plugin-users-permissions": "4.12.4",
+    "@strapi/strapi": "4.12.4",
+    "@stripe/stripe-js": "^2.1.0",
+    "@types/stripe": "^8.0.417",
+    "better-sqlite3": "8.5.0",
+    "dotenv": "^16.3.1",
+    "stripe": "^12.18.0"
+  },
+  "compilerOptions": {
+    "module": "esnext"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "6ec47432-016c-4d81-909d-025611742100"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
